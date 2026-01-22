@@ -35,16 +35,16 @@ Xây dựng mô hình hồi quy dự báo tuổi thọ (Life Expectancy) dựa t
 
 Mô hình cuối cùng (WLS sau khi loại bỏ nhiễu) được đánh giá trên tập kiểm thử (Test set) cho kết quả rất khả quan:
 
-*   **R-squared (R2):** `0.8564` (Mô hình giải thích được khoảng 85.64% sự biến thiên của dữ liệu).
-*   **Mean Absolute Error (MAE):** `2.75` năm.
-*   **Root Mean Squared Error (RMSE):** `3.66` năm.
+*   **R-squared (R2):** `0.8586` (Mô hình giải thích được khoảng 85.64% sự biến thiên của dữ liệu).
+*   **Mean Absolute Error (MAE):** `2.74` năm.
+*   **Root Mean Squared Error (RMSE):** `3.63` năm.
 
 ### Khả năng dự báo
 Mô hình có khả năng đưa ra dự báo tuổi thọ cụ thể kèm theo **khoảng tin cậy 95%** (95% Confidence Interval).
 
 *Ví dụ thực tế từ model:*
-> Với một mẫu dữ liệu đầu vào, mô hình dự đoán tuổi thọ là **68.96 tuổi**.
-> Khoảng tin cậy 95%: Tuổi thọ thực tế sẽ nằm trong khoảng **(54.50, 87.19)**.
+> Với một mẫu dữ liệu đầu vào, mô hình dự đoán tuổi thọ là **68.95 tuổi**.
+> Khoảng tin cậy 95%: Tuổi thọ thực tế sẽ nằm trong khoảng **(54.40, 87.32)**.
 
 ## 🛠 Công cụ sử dụng
 *   **Ngôn ngữ:** Python
